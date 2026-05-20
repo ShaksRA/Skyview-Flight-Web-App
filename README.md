@@ -262,9 +262,14 @@ My Bookings reads from last-cached localStorage data when offline.
 
 ## 🔍 Lighthouse PWA Score
 
-![Lighthouse Score](./screenshots/lighthouse-pwa.png)
+### Mobile
+<img width="1279" height="672" alt="image" src="https://github.com/user-attachments/assets/5b8a6586-2504-486a-b71d-0f1d323c1d52" />
 
-**Score: 96 / 100**
+### Desktop
+<img width="1279" height="671" alt="image" src="https://github.com/user-attachments/assets/2c4f0c6d-2878-454f-a8a4-dd60ad1f715d" />
+
+
+**Score: 100 / 100**
 
 To run your own Lighthouse audit:
 1. `npm run build && npm run start`

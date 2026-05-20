@@ -7,13 +7,13 @@ Open PowerShell in your project folder and run:
 ```powershell
 git init
 git add .
-git commit -m "feat: initial commit — SkyWay flight management app"
+git commit -m "feat: initial commit — SkyWay Flight Web App"
 ```
 
 ## Step 2 — Create GitHub Repository
 
 1. Go to https://github.com → Click "+" → "New repository"
-2. Name: `skyway-flight-app`
+2. Name: `Skyway-Flight-Web-App`
 3. Set to **Public**
 4. Do NOT initialize with README (you already have one)
 5. Click "Create repository"

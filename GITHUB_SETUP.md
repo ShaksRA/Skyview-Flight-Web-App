@@ -13,7 +13,7 @@ git commit -m "feat: initial commit — SkyWay Flight Web App"
 ## Step 2 — Create GitHub Repository
 
 1. Go to https://github.com → Click "+" → "New repository"
-2. Name: `Skyway-Flight-Web-App`
+2. Name: `SkyWay-Flight-Web-App`
 3. Set to **Public**
 4. Do NOT initialize with README (you already have one)
 5. Click "Create repository"
@@ -24,7 +24,7 @@ GitHub will show you commands. Run these in PowerShell:
 
 ```powershell
 git branch -M main
-git remote add origin https://github.com/YOUR_USERNAME/Skyway-Flight-Web-App.git
+git remote add origin https://github.com/YOUR_USERNAME/SkyWay-Flight-Web-App.git
 git push -u origin main
 ```
 
@@ -51,7 +51,7 @@ Suggested commit messages for history:
 
 1. Go to https://vercel.com → Sign in with GitHub
 2. Click "New Project"
-3. Find and import `Skyway-Flight-Web-App`
+3. Find and import `SkyWay-Flight-Web-App`
 4. Under "Environment Variables" add:
    ```
    NEXT_PUBLIC_SUPABASE_URL      → your Supabase project URL
@@ -63,18 +63,18 @@ Suggested commit messages for history:
 ## Step 6 — Update Supabase for production
 
 In Supabase → Authentication → URL Configuration:
-1. Site URL: `https://Skyway-Flight-Web-App.vercel.app`
-2. Redirect URLs: add `https://Skyway-Flight-Web-App.vercel.app/**`
+1. Site URL: `https://SkyWay-Flight-Web-App.vercel.app`
+2. Redirect URLs: add `https://SkyWay-Flight-Web-App.vercel.app/**`
 
 ## Step 7 — Copy your production URL
 
 Your app will be at something like:
-`https://Skyway-Flight-Web-App-username.vercel.app`
+`https://SkyWay-Flight-Web-App-username.vercel.app`
 
 Add this to your README:
 ```
 ## 🚀 Live Demo
-Production URL: https://Skyway-Flight-Web-App-username.vercel.app
+Production URL: https://SkyWay-Flight-Web-App-username.vercel.app
 ```
 
 Then push:
